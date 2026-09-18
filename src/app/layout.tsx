@@ -34,10 +34,7 @@ export default function RootLayout({
       <body className="min-h-full flex flex-col bg-white text-slate-900">
         <ToastProvider>
           <CartProvider>
-            {/* <Navbar /> */}
             <main className="flex-grow">{children}</main>
-
-            {/* <Footer /> */}
           </CartProvider>
         </ToastProvider>
       </body>
